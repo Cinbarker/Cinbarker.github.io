@@ -655,8 +655,7 @@ p a:hover {
 #sidebar {
 	background: #274482;
 	color: #ffffff;
-	padding: 60px 20px 20px 50px;
-
+	padding: 60px 20px 20px 20px;
 	position: relative;
 	font-family: "brandon-grotesque", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
 }
