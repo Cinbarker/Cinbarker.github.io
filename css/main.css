@@ -653,7 +653,7 @@ p a:hover {
 }
 
 #sidebar {
-	background: #001225;
+	background: #274482;
 	color: #ffffff;
 	padding: 60px 20px 20px 50px;
 
@@ -666,6 +666,8 @@ p a:hover {
 	display: flex;
     justify-content: center;
     align-items: center;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 400px;
     width: 80%;
 	border: thick solid #ffffff;
@@ -682,6 +684,7 @@ p a:hover {
 	color: #00a9b0;
 	font-weight: 900;
 	font-size: 14px;
+	text-align: center;
 	line-height: 1.2;
 }
 
@@ -690,6 +693,7 @@ p a:hover {
 	color: #ffffff;
 	font-weight: 400;
 	font-size: 21px;
+	text-align: center;
 	line-height: 1.2;
 	text-transform: capitalize;
 }
@@ -722,6 +726,7 @@ p a:hover {
 
 .sidebar-info-list .websiteBy {
 		color: #102742;
+		text-align: center;
 	}
 	
 .sidebar-info-list .websiteBy a {
@@ -750,7 +755,9 @@ p a:hover {
 
 .shop-block .ico-holder {
 	width: 50px;
-	margin: 0 13px 0 0;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .shop-block .text {
@@ -1012,7 +1019,8 @@ h3 strong,
 	.logo {
 		width: 80%;
 		border: thick solid #ffffff;
-		margin-left: 0;
+		align-items: center;
+		margin-left: auto;
 		margin-right: auto;
 	}
 
@@ -1147,6 +1155,9 @@ h3 strong,
 		width: 80%;
 		top: 0px;
 		border: thick solid #ffffff;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.sidebar-info-list li {
