@@ -640,7 +640,7 @@ input[type="submit"] {
 
 body {
 	font-size: 16px;
-	line-height: 1.21;
+	line-height: 1.2;
 }
 
 #wrapper {
@@ -655,17 +655,20 @@ p a:hover {
 #sidebar {
 	background: #001225;
 	color: #ffffff;
-	padding: 100px 20px 20px 50px;
+	padding: 60px 20px 20px 50px;
+
 	position: relative;
 	font-family: "brandon-grotesque", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 .logo {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+	max-width: 400px;
+    width: 80%;
+	border: thick solid #ffffff;
 }
 
 .sidebar-info-list li {
@@ -687,7 +690,7 @@ p a:hover {
 	color: #ffffff;
 	font-weight: 400;
 	font-size: 21px;
-	line-height: 1.21;
+	line-height: 1.2;
 	text-transform: capitalize;
 }
 
@@ -782,13 +785,13 @@ h2 {
 	font-weight: 700;
 	color: #00a9b0;
 	font-size: 22px;
-	line-height: 1.21;
+	line-height: 1.2;
 }
 
 .text-box {
 	color: #001225;
 	font-size: 19px;
-	line-height: 1.22;
+	line-height: 1.2;
 }
 
 .timeline-list {
@@ -896,16 +899,16 @@ h3 strong,
 		top: 0;
 		left: 0;
 		bottom: 0;
-		width: 270px;
+		width: 336px;
 		overflow: hidden;
 		overflow-y: auto;
-		padding: 200px 30px 20px 30px;
+		padding: 60px 30px 20px 30px;
 		z-index: 99;
 		min-height: 100vh;
 	}
 
 	#main {
-		padding-left: 270px;
+		padding-left: 336px;
 	}
 
 	.two-columns {
@@ -999,7 +1002,7 @@ h3 strong,
 
 	#sidebar {
 		width: 336px;
-		padding: 150px 20px 20px 30px;
+		padding: 60px 20px 20px 30px;
 	}
 
 	#main {
@@ -1007,13 +1010,14 @@ h3 strong,
 	}
 
 	.logo {
-		width: 200px;
-		margin-left: auto;
+		width: 80%;
+		border: thick solid #ffffff;
+		margin-left: 0;
 		margin-right: auto;
 	}
 
 	.sidebar-info-list li {
-		margin: 0 0 18px;
+		margin: 0 0 5px;
 	}
 
 	.sidebar-info-list li:first-child .dt {
@@ -1125,14 +1129,14 @@ h3 strong,
 	}
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
 	body {
 		font-size: 24px;
 	}
 
 	#sidebar {
 		width: 471px;
-		padding: 244px 20px 20px 91px;
+		padding: 60px 20px 20px 50px;
 	}
 
 	#main {
@@ -1140,8 +1144,9 @@ h3 strong,
 	}
 
 	.logo {
-		width: 200px;
+		width: 80%;
 		top: 0px;
+		border: thick solid #ffffff;
 	}
 
 	.sidebar-info-list li {
