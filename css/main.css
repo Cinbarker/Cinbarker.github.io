@@ -668,9 +668,9 @@ p a:hover {
     align-items: center;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 400px;
+	max-width: 350px;
     width: 80%;
-	border: thick solid #ffffff;
+	border: 15px double #ffffff ;
 }
 
 .sidebar-info-list li {
@@ -735,7 +735,7 @@ p a:hover {
 .sidebar-info-list .websiteBy a:hover {
 		color: #7f7e82;
 	}
-.shop-block {
+.talk-tech-block {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -749,22 +749,22 @@ p a:hover {
 	color: #193b6b;
 }
 
-.shop-block > * {
+.talk-tech-block > * {
 	pointer-events: auto;
 }
 
-.shop-block .ico-holder {
+.talk-tech-block .ico-holder {
 	width: 50px;
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.shop-block .text {
+.talk-tech-block .text {
 	width: calc(100% - 63px);
 }
 
-.shop-block:hover {
+.talk-tech-block:hover {
 	opacity: .8;
 }
 
@@ -909,7 +909,7 @@ h3 strong,
 		width: 336px;
 		overflow: hidden;
 		overflow-y: auto;
-		padding: 60px 30px 20px 30px;
+		padding: 60px 20px 20px 30px;
 		z-index: 99;
 		min-height: 100vh;
 	}
@@ -980,6 +980,8 @@ h3 strong,
 		left: 0;
 		margin: 0;
 	}
+
+
 }
 
 @media (min-width: 1024px) {
@@ -1017,27 +1019,17 @@ h3 strong,
 	}
 
 	.logo {
-		width: 80%;
-		border: thick solid #ffffff;
 		align-items: center;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.sidebar-info-list li {
-		margin: 0 0 5px;
-	}
-
-	.sidebar-info-list li:first-child .dt {
-		margin: 0 0 3px;
+		margin: 0 0 20px;
 	}
 
 	.sidebar-info-list .dt {
 		margin: 0 0 5px;
-	}
-
-	.shop-block {
-		padding-top: 10px;
 	}
 
 	.two-columns {
@@ -1120,8 +1112,8 @@ h3 strong,
 		padding: 0 0 0 17px;
 	}
 
-	.bullet-list > li:before {
-		top: 5px;
+	.category-list .dt {
+		margin: 0 3px 0 0;
 	}
 
 	.category-list {
@@ -1152,9 +1144,6 @@ h3 strong,
 	}
 
 	.logo {
-		width: 80%;
-		top: 0px;
-		border: thick solid #ffffff;
 		align-items: center;
 		margin-left: auto;
 		margin-right: auto;
@@ -1189,16 +1178,16 @@ h3 strong,
 		font-size: 40px;
 	}
 
-	.shop-block {
+	.talk-tech-block {
 		padding-top: 33px;
 	}
 
-	.shop-block .ico-holder {
+	.talk-tech-block .ico-holder {
 		width: 71px;
 		margin: 0 17px 0 0;
 	}
 
-	.shop-block .text {
+	.talk-tech-block .text {
 		width: calc(100% - 88px);
 	}
 	
