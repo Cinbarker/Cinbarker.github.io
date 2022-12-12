@@ -725,6 +725,8 @@ p a:hover {
 
 .sidebar-info-list .websiteBy {
 		color: #102742;
+	    margin-top: auto;
+	    /*margin: fill 0px 5px;*/
 		text-align: center;
 	}
 	
@@ -810,7 +812,7 @@ h2 {
 
 .year {
 	text-transform: uppercase;
-	font-family: "Brandon-grotesque", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "brandon-grotesque", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
 	font-weight: 900;
 	line-height: 1.2;
 	font-size: 15px;
@@ -1068,7 +1070,7 @@ h3 strong,
 	}
 
 	.timeline-list > li {
-		margin: 0 0 112px;
+		margin: 0 0 42px;
 	}
 
 	.timeline-list > li:last-child:after {
