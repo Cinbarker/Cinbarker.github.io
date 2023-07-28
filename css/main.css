@@ -736,7 +736,7 @@ p a:hover {
 .sidebar-info-list .websiteBy a:hover {
 		color: #7f7e82;
 	}
-.talk-tech-block {
+.github_logo_block {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -746,27 +746,27 @@ p a:hover {
 	-ms-flex-align: center;
 	align-items: center;
 	pointer-events: none;
-	padding-top: 15px;
+	padding-top: 0px;
 	color: #193b6b;
 }
 
-.talk-tech-block > * {
+.github_logo_block > * {
 	pointer-events: auto;
 }
 
-.talk-tech-block .ico-holder {
+.github_logo_block .ico-holder {
 	width: 50px;
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.talk-tech-block .text {
+.github_logo_block .text {
 	width: calc(100% - 63px);
 }
 
-.talk-tech-block:hover {
-	opacity: .8;
+.github_logo_block:hover {
+	opacity: .7;
 }
 
 .two-columns {
@@ -1179,16 +1179,12 @@ h3 strong,
 		font-size: 40px;
 	}
 
-	.talk-tech-block {
-		padding-top: 33px;
-	}
 
-	.talk-tech-block .ico-holder {
+	.github_logo_block .ico-holder {
 		width: 71px;
-		margin: 0 17px 0 0;
 	}
 
-	.talk-tech-block .text {
+	.github_logo_block .text {
 		width: calc(100% - 88px);
 	}
 	
