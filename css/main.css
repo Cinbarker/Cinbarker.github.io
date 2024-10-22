@@ -714,8 +714,8 @@ p a:hover {
 	right: 60%;
 	height: 2px;
 	background-image: linear-gradient(to right, #0078c3, #00a9b0);
-	-webkit-transition: left .3s linear, right .3s linear;
-	transition: left .3s linear, right .3s linear;
+	-webkit-transition: left .2s ease-in-out, right .2s ease-in-out;
+	transition: left .2s ease-in-out, right .2s ease-in-out;
 }
 
 .sidebar-info-list .dd .link:hover:before {
