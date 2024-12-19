@@ -1,0 +1,30 @@
+name: Link Checker
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install link checker
+        run: |
+          python -m pip install --upgrade pip
+          pip install linkchecker
+
+      - name: Run link checker
+        run: linkchecker --ignore-url=^mailto: --check-extern .
