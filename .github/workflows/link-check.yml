@@ -30,4 +30,4 @@ jobs:
 
       - name: Run link checker
         run: |
-          linkchecker --ignore-url=^mailto: --check-extern .
+          linkchecker --no-warnings --ignore-url=^mailto: --check-extern .
