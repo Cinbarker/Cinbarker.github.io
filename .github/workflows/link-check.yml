@@ -29,4 +29,5 @@ jobs:
           pip install linkchecker
 
       - name: Run link checker
-        run: linkchecker --ignore-url=^mailto: --check-extern .
+        run: |
+          linkchecker --ignore-url=^mailto: --check-extern .
